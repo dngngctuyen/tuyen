@@ -1,0 +1,147 @@
+*{margin: 0 ;padding: 0 ;box-sizing: border-box;}
+body{
+    background-color: #e5cdb8;
+}
+#body{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+header{
+    height: 150px;
+}
+header img{
+    height: 100%;
+    width: 100%;
+}
+header a img:hover{
+    opacity: 0.75;
+}
+nav{
+    height: 50px;
+    background-color: #285195;
+    border-radius: 0 0 10px 10px;
+}
+nav a{
+    list-style: none;
+    display: block;
+    padding-left: 20px;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    line-height: 50px;
+    padding: 0 10px;
+}
+nav a:hover{
+    background-color: #FFFFFF;
+    color: rgb(91, 83, 83);
+    border-radius: 5px;
+}
+#text{
+    height: 35px;
+    background-color: #e5cdb8;
+    margin-top: 5px;
+    border-radius: 6px;
+}
+#text p{
+    line-height: 35px;
+    font-size:20px;
+    color: red;
+    font-weight: bold;
+}
+#content{
+    height: 750px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#noidung{
+    width: 650px;
+    height: 100%;
+    float: left;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#noidung h2{
+    height: 50px;
+    background-color: #285195;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.noidung1{
+    height: 150px;
+    width: 625px;
+    border: 1px solid #F2240D;
+    border-radius: 5px;
+    margin: 20px 12.5px;
+    padding: 10px;
+}
+.noidung1 img{
+    height: 100px;
+}
+.noidung1 img:hover{
+    opacity: 0.8;
+}
+#right{
+    width: 290px;
+    height: 100%;
+    float: right;
+    margin-right: 5px;
+}
+.right-top{
+    border: 3px solid #F2240D;
+}
+.right-bottom{
+    border: 3px solid #285195;
+    margin-top: 10px;
+}
+.title1{
+    height: 50px;
+    background-color: #F2240D;
+}
+.title1 h2{
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    margin-top: 1px;
+}
+.title2{
+    height: 50px;
+    background-color: #285195;
+}
+.title2 h2{
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+#right ul li{
+    list-style: none;
+    display: block;
+    padding-left: 10px;
+    line-height: 40px;
+}
+#right ul li a{
+    text-decoration: none;
+}
+#right ul li:hover{
+    background-color: rgb(192, 198, 203);
+    border: 0px solid #cdcdcd;
+}
+#footer{
+    height: 120px;
+    background-color: #285195;
+    padding: 20px;
+    line-height: 20px; 
+    clear: both;
+}
+#footer p{
+    color: #FFFFFF;
+}
+#footer a{
+    text-decoration: none;
+}
